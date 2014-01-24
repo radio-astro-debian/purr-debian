@@ -1,0 +1,13 @@
+Source: purr
+Section: python
+Priority: extra
+Maintainer: Gijs Molenaar <gijs@pythonic.nl>
+Build-Depends: debhelper (>= 8.0.0), python-all
+Standards-Version: 3.9.2
+Homepage: https://github.com/ska-sa/purr
+X-Python-Version: 2.7
+
+Package: purr
+Architecture: any
+Depends: ${python:Depends}, ${misc:Depends}
+Description: Data reduction logging tool, Useful for remembering reductions 

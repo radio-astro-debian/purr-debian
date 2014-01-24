@@ -1,0 +1,6 @@
+files
+purr.debhelper.log
+purr.postinst.debhelper
+purr.prerm.debhelper
+purr.substvars
+purr/
